@@ -22,13 +22,9 @@ app.use(taskRouter)
 
 
 app.post('', (req, res)=>{
-    res.send('New Homepage')
+    res.send('Homepage')
 })
 
 app.listen(port, () => {
     console.log('Server is up on port '+ port)
-})
-
-
-
- 
+}) 
