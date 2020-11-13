@@ -22,7 +22,7 @@ app.use(taskRouter)
 
 
 app.post('', (req, res)=>{
-    res.send('This is a homepage')
+    res.send('Homepage')
 })
 
 app.listen(port, () => {
